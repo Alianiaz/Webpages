@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Resume{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+
+}
+
+.profile-card{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7bf54b;
+    padding: 25px; 
+    border-right: 3px solid #ffffff; 
+}
+
+.logo{
+   width: 100%;
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 20px;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.logo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid;
+}
+
+.text {
+    text-align: center;
+    margin: 0;
+}
+
+.profile, .contact
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons p{
+    margin: 7px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 5px;
+}
+
+.interest{
+    width: 300px;
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px; 
+}
+
+.interest p{
+    margin: 7px;
+}
+
+.languages{  
+    display: flex;
+    flex-direction: column; 
+}
+ .langs{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;  
+    font-size: 18px;
+ }
+
+  .langs p{
+    margin: 10px; 
+  }
+
+.bar{
+    width: 140px;
+    height: 15px;
+    background: #cfcfcf;
+    border-radius: 10px;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.fill{
+    height: 100%;
+    background: #00130d;
+    border-radius: 10px;
+}
+
+.sindhi{
+    width: 100%;
+}
+
+.urdu{
+    width: 80%;
+}
+
+.eng{
+    width: 70%;
+}
+
+.profile-details{ 
+    display: flex;
+    flex-direction: column; 
+    background: #071d17;
+    color: #ffffff;
+    padding: 7px;
+}
