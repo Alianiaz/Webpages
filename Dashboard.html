@@ -1,95 +1,306 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trainer Dashboard</title>
-    <link rel="stylesheet" href="Dashboard.CSS">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
-<body>
-<!-- DAshboard -->
+    <link rel="stylesheet" href="Dashboard.CSS" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- DAshboard -->
     <div class="dashboard">
-<!-- Sidebar -->
-        <div class="sidebar">
-<!-- Logo -->
-            <div class="logo">
-           <div class="logo-content">
-            <i class="fa-solid fa-grip-lines" style="color: #000;"></i>
-            <h1>JEDI</h1>  
-           </div>
-           </div>
-<!-- nav -->
-       <div class="Navbar">
-<!-- Icons -->
-           <div class="icons">
-            <i class="fa-solid fa-house" style="color: #000;"></i>
-            <h3>Home</h3>
-           </div>
-
-            <div class="icons">
-                <i class="fa-solid fa-calendar" style="color: #000;"></i>
-                <h3>Schedule</h3>
-            </div>
-
-            <div class="icons">
-                <i class="fa-solid fa-graduation-cap" style="color: #000;"></i>
-                <h3>Trainers</h3>
-            </div>
-
-            <div class="icons">
-                <i class="fa-solid fa-shield" style="color: #000;"></i>
-                <h3>Public Library</h3>
-            </div>
-
-            <div class="icons">
-                <i class="fa-solid fa-gear" style="color: #000;"></i>
-                <h3>Preference</h3>
-            </div>
-
-            <div class="icons">
-                <i class="fa-solid fa-right-from-bracket" style="color: #000;"></i>
-                <h3>Log out</h3>
-            </div>
-       </div>  
-       
-       <div class="bottom">
-            <div class="icons">
-                <i class="fa-solid fa-gear" style="color: #000;"></i>
-                <h3>Preference</h3>
-            </div>
-
-            <div class="icons">
-                <i class="fa-solid fa-right-from-bracket" style="color: #000;"></i>
-                <h3>Log out</h3>
-            </div>
-       </div>
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Logo -->
+        <div class="logo">
+          <div class="logo-content">
+            <i class="fa-solid fa-grip-lines" style="color: #000"></i>
+            <h1>JEDI</h1>
+          </div>
         </div>
-        
-<!-- Content -->
-        <div class="content">
-<!-- head -->
-          <div class="head">
-            <div class="h-icon">
-                <i class="fa-solid fa-arrow-left" style="color: #000;"></i>
-            </div>
-<!-- Search Bar -->
-            <div class="search-bar">
-                <i class="fa-solid fa-magnifying-glass" style="color: #000;"></i>
-                <div class="bar">
-                    <input placeholder="Find courses, trainers, etc">
-                </div>
-            </div>
- <!-- profile-icon --> 
+        <!-- nav -->
+        <div class="Navbar">
+          <!-- Icons -->
+          <div class="icons">
+            <i class="fa-solid fa-house" style="color: #000"></i>
+            <h3>Home</h3>
+          </div>
 
-            <div class="profile">
-                <i class="fa-solid fa-bell" style="color: #000;"></i>
-                <img src="images/Profile-logo.jpg"> 
+          <div class="icons">
+            <i class="fa-solid fa-calendar" style="color: #000"></i>
+            <h3>Schedule</h3>
+          </div>
+
+          <div class="icons">
+            <i class="fa-solid fa-graduation-cap" style="color: #000"></i>
+            <h3>Trainers</h3>
+          </div>
+
+          <div class="icons">
+            <i class="fa-solid fa-shield" style="color: #000"></i>
+            <h3>Public Library</h3>
+          </div>
+
+          <div class="icons">
+            <i class="fa-solid fa-gear" style="color: #000"></i>
+            <h3>Preference</h3>
+          </div>
+
+          <div class="icons">
+            <i class="fa-solid fa-right-from-bracket" style="color: #000"></i>
+            <h3>Log out</h3>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="icons">
+            <i class="fa-solid fa-gear" style="color: #000"></i>
+            <h3>Preference</h3>
+          </div>
+
+          <div class="icons">
+            <i class="fa-solid fa-right-from-bracket" style="color: #000"></i>
+            <h3>Log out</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <!-- head -->
+        <div class="head">
+          <div class="h-icon">
+            <i class="fa-solid fa-arrow-left" style="color: #000"></i>
+          </div>
+          <!-- Search Bar -->
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000"></i>
+            <div class="bar">
+              <input placeholder="Find courses, trainers, etc" />
+            </div>
+          </div>
+          <!-- profile-icon -->
+
+          <div class="profile">
+            <div class="pro">
+              <div class="bell">
+                <i class="fa-solid fa-bell" style="color: #000"></i>
+              </div>
+              <img src="images/Profile-logo.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Trainer + work section -->
+        <div class="card">
+          <!-- Trainer -->
+          <div class="trainer">
+            <div class="h-trainer">
+              <h1>Trainer Info</h1>
+            </div>
+            <!-- Trainer-box -->
+            <div class="T-box">
+              <!-- Picture -->
+              <div class="pic">
+                <img src="images/profile pic.jpg" />
+              </div>
+              <!-- Text-Area(Intro) -->
+              <div class="card-a">
+                <div class="intro">
+                  <div class="name">
+                    <h3>Hillary Bale</h3>
+                    <p>abcdef@gmail.com</p>
+                  </div>
+                  <!-- Intro-icons -->
+                  <div class="font">
+                    <div class="icons">
+                      <i class="fa-brands fa-twitter" style="color: #000"></i>
+                    </div>
+
+                    <div class="icons">
+                      <i class="fa-brands fa-linkedin" style="color: #000"></i>
+                    </div>
+
+                    <div class="icons">
+                      <i class="fa-brands fa-instagram" style="color: #000"></i>
+                    </div>
+                  </div>
+                </div>
+                <!--Rating-card  -->
+                <div class="ratings">
+                  <div class="r-box">
+                    <h1>1+</h1>
+                    <p>Experience</p>
+                  </div>
+
+                  <div class="r-box">
+                    <h1>#1</h1>
+                    <p>on platform</p>
+                  </div>
+
+                  <div class="r-box">
+                    <h1>5 Ya</h1>
+                    <p>of teaching</p>
+                  </div>
+
+                  <div class="r-box">
+                    <h1>12</h1>
+                    <p>Courses</p>
+                  </div>
+                </div>
+                <!-- Paragraph -->
+                <div class="para">
+                  <p>
+                    Javascript trainer with over 10 years of experience in the
+                    software development industry. Passionated about teaching
+                    how to code & helping them develop their skills
+                  </p>
+                </div>
+                <!-- Button -->
+                <div class="button">
+                  <div class="btn">
+                    <i
+                      class="fa-solid fa-microphone"
+                      style="color: rgb(0, 0, 0)"
+                    ></i>
+                    <button>Request session</button>
+                  </div>
+
+                  <div class="btn">
+                    <button>Profile</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-<!-- Trainer -->
+            <!--Work xperience  -->
+            
+            <div class="work">
+                <div class="work-h">
+            <h2>Work Experience</h2>
+            </div>
+              <div class="work-box">
+                <div class="box">
+                  <div class="box-icon">
+                    <i class="fa-solid fa-briefcase" style="color: #000"></i>
+                  </div>
+
+                  <div class="text">
+                    <h3>Senior Javascript developer</h3>
+                    <p>Firecracker inc</p>
+                    <p>May 2022-present</p>
+                  </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="box">
+                  <div class="box-icon">
+                    <i class="fa-solid fa-briefcase" style="color: #000"></i>
+                  </div>
+
+                  <div class="text">
+                    <h3>Senior Javascript developer</h3>
+                    <p>Cut rite lawn care</p>
+                    <p>May 2022-present</p>
+                  </div>
+                </div>
+
+<div class="line"></div>
+
+                 <div class="box">
+                  <div class="box-icon">
+                    <i class="fa-solid fa-briefcase" style="color: #000"></i>
+                  </div>
+
+                  <div class="text">
+                    <h3>Senior Javascript developer</h3>
+                    <p>Pro oroperty Maintenance</p>
+                    <p>May 2022- Nov 2025</p>
+                  </div>
+                </div>
+                <!-- work-box -->
+              </div>
+              <!-- work -->
+            </div>
+            <!-- card -->
+          </div>
+<!-- second section -->
+        <div class="second-section">
+              <div class="sec-heading">
+                <h1>Students review</h1>
+                <button>View all</button>
+              </div>
+
+              <div class="second">
+
+                <div class="chart">
+                    <div class="chart-a">
+                    <div class="second-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <p>4.6 / 5.0</p>
+                    </div>
+                    <button>See stats</button>
+                    </div>
+
+                    <div class="line"></div>
+
+                   <h1>127</h1>
+                   <p>rates from students</p>
+                </div>
+
+                  <div class="second-box">
+                    <div class="s-name">
+                    <h3>Nicol W.</h3>
+                    <div class="second-rating">
+                        <i class="fa-solid fa-star" style="color: rgb(228, 138, 23);"></i>
+                        <p>4.6</p>
+                    </div>
+                    </div>
+
+                    <h4>Junior Javascript developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia, beatae necessitatibus explicabo rem aut voluptatem quae 
+                        molestiae repudiandae.</p>
+                  </div>
+
+                  <div class="second-box">
+                    <div class="s-name">
+                    <h3>Vane F.</h3>
+                    <div class="second-rating">
+                        <i class="fa-solid fa-star" style="color: rgb(228, 138, 23);"></i>
+                        <p>4.6</p>
+                    </div>
+                    </div>
+
+                    <h4>Junior Javascript developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia, beatae necessitatibus explicabo rem aut voluptatem quae 
+                    molestiae repudiandae.</p>
+                  </div>
+
+                  <div class="second-box">
+                    <div class="s-name"> 
+                    <h3>Stephanie N.</h3>
+                    <div class="second-rating">
+                        <i class="fa-solid fa-star" style="color: rgb(228, 138, 23);"></i>
+                        <p>4.7</p>
+                    </div>
+                    </div>
+
+                    <h4>Middle Javascript developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia, beatae necessitatibus explicabo rem aut voluptatem quae 
+                     molestiae repudiandae.</p>
+                  </div>
+              </div>
+            <!-- second-section -->
         </div>
-    </div>
-</body>
+          <!-- content -->
+        </div>
+        <!-- dasboard -->
+      </div>
+  </body>
 </html>
