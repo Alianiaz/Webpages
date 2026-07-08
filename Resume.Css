@@ -9,7 +9,7 @@ body{
     display: flex;   
     align-items: stretch;
     flex-wrap: nowrap;  
-    height: 185vh;
+    height: 220vh;
 }
  
 /* Line */
